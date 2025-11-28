@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+  --primary-white:#fff;
+  --primary-orange: #f9ab00;
+  --primary-black: rgba(255, 255, 255, 0);
+}
+
+boby{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Navbar customizations */
+.logo {
+  width: 8.25rem;
+}
+
+/* Menu links*/
+nav a .nav-link {
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+nav ul li{
+  text-transform: uppercase;
+}
+
+.navbar-nav >li > a{
+  margin-right: 12px;
+  margin-left: 12px;
+  color: var(--primary-white) !important;
+  border-top: 3px solid var(--primary-black);
+}
+
+.navbar-brand{
+  height: 6rem !important;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus{
+  border-top: 3px solid var(--primary-orange);
+}
+
+.navbar-nav > li > a:hover{
+  border-top: 3px solid var(--primary-orange);
+}
